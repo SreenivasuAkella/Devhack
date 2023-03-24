@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>health Database</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-container">
+        <div class="login-image"></div>
+        <div class="screen">
+          <h1>LOG IN</h1>
+          <div id="toggle-btn">
+            <p id="individual" class="solid">Individual</p>
+            <p id="organization" class="line">Organization</p>
+          </div>
+          <form class="login" autocomplete="off">
+            <div id="indi-form" class="show">
+              <div class="login_field">
+                <i class="login_icon fa fa-solid fa-user"></i>
+                <input
+                  type="text"
+                  class="login_input"
+                  placeholder="User name"
+                />
+              </div>
+              <div class="login_field">
+                <i class="login_icon fa fa-lock"></i>
+                <input
+                  type="password"
+                  class="login_input"
+                  placeholder="Password "
+                />
+              </div>
+            </div>
+            <div id="org-form" class="hide">
+              <div class="login_field">
+                <i class="login_icon fa fa-solid fa-user"></i>
+                <input type="text" class="login_input" placeholder="Organization ID" />
+              </div>
+              <div class="login_field">
+                <i class="login_icon fa fa-lock"></i>
+                <input
+                  type="password"
+                  class="login_input"
+                  placeholder="Password "
+                />
+              </div>
+            </div>
+            <button class="button login_submit">
+              <span class="button_text">LOG IN </span>
+              <i class="button_icon fa fa-chevron-right"></i>
+            </button>
+            <div class="sign-up">
+              <p>
+                Don't have an account ? &nbsp; <a href="signup.html">Sign up</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="login.js"></script>
+</html>
